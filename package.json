@@ -1,0 +1,22 @@
+{
+  "name": "aries_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "connection": "ts-node demo.ts",
+    "connectionless": "ts-node connectionless.ts"
+  },
+  "dependencies": {
+    "@aries-framework/core": "^0.2.5",
+    "@aries-framework/node": "^0.2.5",
+    "inquirer": "^8.1.3",
+    "node-fetch": "2.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/inquirer": "^8.1.3"
+  }
+}
